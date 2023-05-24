@@ -1,0 +1,20 @@
+.popup__edit {  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    width: 330px;
+    height: 23px;
+    margin: 34px 64px 54px 36px;
+}
+
+@media screen and (max-width:860px) {
+    .popup__edit {
+        width: 238px;
+        height: 27px;
+        font-size: 18px;
+        line-height: 22px;
+        margin: 25px auto 75px auto;
+    }
+}

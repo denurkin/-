@@ -1,0 +1,18 @@
+.profile__edit {
+    background-image: url(/image/edit__button.svg);
+    width: 24px;
+    height: 24px;
+    border: 1px solid white;
+    margin-top: 15px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+@media screen and (max-width:860px) {
+    .profile__edit {
+        width: 16px;
+        height: 16px;
+    }
+}
