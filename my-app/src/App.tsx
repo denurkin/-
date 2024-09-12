@@ -10,7 +10,7 @@ import { values, observable, action } from "mobx";
 
 
 
-const App = (props: any) => {
+const App = observer((props: any) => {
 
   console.log(1);
   let id = 1;
@@ -38,7 +38,7 @@ const randomId = () => ++id;
       </div>
     ))}
   </div>)
-}
+})
 
 
 
