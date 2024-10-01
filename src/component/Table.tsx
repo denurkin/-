@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/Table.css';
-import Lists from './Lists';
-import Pagination from './Pagination';
+import ListsCounter from './ListsCounter';
+import Pagination from './Pagination'; 
 
 
 const Table = () => {
@@ -18,7 +18,7 @@ const Table = () => {
                     <li className='table__description'>Примечание</li>
                 </ul>
                 <div className='table__list'>
-                    <Lists/>
+                    <ListsCounter/>
                 </div>
             </div>
             <Pagination/>
